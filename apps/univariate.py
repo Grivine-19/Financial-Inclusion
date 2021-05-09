@@ -7,7 +7,8 @@ from apps.data import get_data
 finance_data = get_data('data/inclusion.csv')
 
 def app():
-    menu = ["Bank Account", "Residence", "Employment", "Education", "Phone Access", "Data Distribution"]
+    menu = ["Data Distribution", "Residence", "Employment", "Education", "Phone Access",
+    "Bank Account"]
     choice=st.selectbox("Choose to view", menu)
 
     if choice == "Residence":

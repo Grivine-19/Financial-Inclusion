@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px  # Built in and simple to use
 import plotly.graph_objects as go  # Low-level & a bit complex
 
-@st.cache
+@st.cache(persist=True,suppress_st_warning=True)
 def get_data(filename):
     finance_data = pd.read_csv(filename)
     
