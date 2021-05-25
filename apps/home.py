@@ -10,13 +10,13 @@ def app():
         if choice == "The Team":
             st.markdown("""
             #### **Team Members:**
-            [Jacklyne Betty](https: // www.linkedin.com/in/betty-jacklyne-03681535 / 'Jacklyne') - Professional Mentor
+            [Jacklyne Betty](https://linkedin.com/in/betty-jacklyne-03681535) - Technical Consultant
 
-            [Grivine Ochieng](https: // www.linkedin.com/in/grivine / 'Grivine')
+            [Grivine Ochieng'](https://linkedin.com/in/grivine) - Data Scientist
 
-            [Lewis Munyi](https: // www.linkedin.com/in/lewismunyi / 'Lewis')
+            [Lewis Munyi](https://linkedin.com/in/lewismunyi) - ML Engineer
             """)
-            
+
         else:
             st.markdown('''
             #### **Overview**
@@ -41,7 +41,7 @@ def app():
         choice = st.selectbox("Details on...", menu)
 
         if choice == "Tools":
-            st.markdown(''' 
+            st.markdown('''
             * Python
 
             * Plotly
@@ -50,7 +50,7 @@ def app():
             ''')
             #statements here
         elif choice == "Approach":
-            st.markdown(''' 
+            st.markdown('''
             #### **Steps**
 
             * Exploratory Data Analysis
@@ -61,13 +61,13 @@ def app():
 
             * Modeling
 
-            * Testing 
+            * Testing
 
             * Publishing(Data App)
             ''')
 
         else:
-            st.markdown(''' 
+            st.markdown('''
             #### **Objective**
 
             The objective of this project is to create a machine learning model to predict
