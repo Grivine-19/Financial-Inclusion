@@ -10,11 +10,11 @@ def app():
         if choice == "The Team":
             st.markdown("""
             #### **Team Members:**
-            [Jacklyne Betty](https://linkedin.com/in/betty-jacklyne-03681535/Jacklyne) - Technical Consultant
+            [Jacklyne Betty](https://linkedin.com/in/betty-jacklyne-03681535) - Technical Consultant
 
-            [Grivine Ochieng'](https://linkedin.com/in/grivine/Grivine) - Data Scientist
+            [Grivine Ochieng'](https://linkedin.com/in/grivine) - Data Scientist
 
-            [Lewis Munyi](https://linkedin.com/in/lewismunyi/Lewis) - ML Engineer
+            [Lewis Munyi](https://linkedin.com/in/lewismunyi) - ML Engineer
             """)
 
         else:
