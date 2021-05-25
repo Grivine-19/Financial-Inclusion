@@ -30,7 +30,7 @@ def app():
     model = Classifier()
 
     # Create data columns
-    col1, col2, col3 = st.beta_columns(3)
+    col1, col2 = st.beta_columns(2)
 
     with col1:
         countries = ['Kenya', 'Rwanda', 'Tanzania', 'Uganda']
@@ -43,6 +43,15 @@ def app():
         location_type = (st.selectbox('Select Location', locations))
 
         cellphone_access = st.selectbox("Respondent has a cellphone?", ['Yes', 'No'])
+
+        statuses = ['Married/Living together', 'Widowed', 'Single/Never Married',
+                    'Divorced/Seperated', 'Dont know']
+
+        marital_status = st.selectbox("Marital status", statuses)
+
+        realtionships = ['Spouse', 'Head of Household', 'Other relative', 'Child', 'Parent',
+                        'Other non-relatives']
+        relationship_with_head = st.selectbox("Relationship with the household head", realtionships)
 
     with col2:
         gender_of_respondent = st.selectbox("Respondent's gender", ['Male', 'Female'])
@@ -60,16 +69,9 @@ def app():
                     'Dont Know/Refuse to answer', 'No Income']
         job_type = st.selectbox("Respondent's job type", job_types)
 
-    with col3:
         household_size = st.number_input("Respondent's household size", min_value=1)
 
-        statuses = ['Married/Living together', 'Widowed', 'Single/Never Married',
-                    'Divorced/Seperated', 'Dont know']
-        marital_status = st.selectbox("Marital status", statuses)
 
-        realtionships = ['Spouse', 'Head of Household', 'Other relative', 'Child', 'Parent',
-                        'Other non-relatives']
-        relationship_with_head = st.selectbox("Relationship with the household head", realtionships)
 
     a,b,x,y,z = st.beta_columns(5)
     with a:
