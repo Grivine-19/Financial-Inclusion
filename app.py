@@ -21,7 +21,7 @@ app.add_app("Home", home.app)
 app.add_app("Dataset", data.app)
 app.add_app("Unidimensional Analysis", univariate.app)
 app.add_app("Multidimensional Analysis", bivariate.app)
-app.add_app("Models", model.app)
+app.add_app("Prediction model", model.app)
 
 # The main app
 app.run()
