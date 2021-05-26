@@ -1,19 +1,3 @@
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -65,8 +49,6 @@
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
-
-[![Financial Inclusion][product-screenshot]](https://share.streamlit.io/grivine-19/financial-inclusion/main/app.py)
 
 The objective of this project is to create a machine learning model to predict which individuals are most likely to have or use a bank account. The models and solutions developed can provide an indication of the state of financial inclusion in Kenya, Rwanda, Tanzania and Uganda, while providing insights into some of the key demographic factors that might drive individuals’ financial outcomes.
 
@@ -153,19 +135,3 @@ Project Link: [https://github.com/grivine-19/Financial-Inclusion](https://github
 
 - [Jacklyne Betty](https://linkedin.com/in/betty-jacklyne-03681535) - Industry consultunt
 - [Lewis Munyi](https://linkedin.com/in/lewismunyi) - ML Engineer
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/grivine-19/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/grivine-19/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/grivine-19/repo.svg?style=for-the-badge
-[forks-url]: https://github.com/grivine-19/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/grivine-19/repo.svg?style=for-the-badge
-[stars-url]: https://github.com/grivine-19/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/grivine-19/repo.svg?style=for-the-badge
-[issues-url]: https://github.com/grivine-19/repo/issues
-[license-shield]: https://img.shields.io/github/license/grivine-19/repo.svg?style=for-the-badge
-[license-url]: https://github.com/grivine-19/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/grivine-19
