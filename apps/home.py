@@ -67,7 +67,7 @@ def app():
     col1, col2 = st.beta_columns(2)
 
     with col1:
-        st.image('https://media-exp1.licdn.com/dms/image/C4D35AQE0xG4CCzE2Aw/profile-framedphoto-shrink_800_800/0/1620074813111?e=1622109600&v=beta&t=9eFoh5qqzyLCZNQxHkCYNthcbpXYKCPdcyPYiN-7Hlk',
+        st.image('https://media-exp1.licdn.com/dms/image/C4D03AQGzLoggGR6rGQ/profile-displayphoto-shrink_400_400/0/1603098407733?e=1628121600&v=beta&t=pF0X6Ra9h-v4q6VnyjQHI6Dz8FX1OhSRP4VIcHpnStg',
         width=300)
 
     with col2:
